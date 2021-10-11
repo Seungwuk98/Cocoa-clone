@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='kr'>
+
+<head>
+    <title>ESW time</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 20px;
+        }
+
+        div {
+            width: 500px;
+            height: 150px;
+            color: black;
+            position: relative;
+        }
+
+        span {
+            background-color: tomato;
+            margin: 0 10px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        p span {
+            color: white;
+        }
+
+        p~span {
+            text-decoration: underline;
+        }
+
+        input {
+            border: 1px solid white;
+        }
+
+
+        input:required {
+            border: 1px solid tomato;
+        }
+
+        input[placeholder~="Name"] {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>
+            hello
+        </span>
+        <p>
+            asdfasdfasdfasdfasdfasdfasdfasdf <span>inside</span>
+        </p>
+        <address>hi</address>
+        <span>
+            hello
+        </span>
+        <form>
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="password" required placeholder="password" />
+
+        </form>
+    </div>
+</body>
+
+</html>
