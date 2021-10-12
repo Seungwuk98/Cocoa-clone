@@ -3,7 +3,77 @@
 
 <head>
     <link href="style.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #F5F5F5;
+            flex-wrap: wrap;
+        }
 
+        body>div {
+            border: None;
+            width: 400px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .box {
+            margin: 8.5px;
+            border: 5px white solid;
+            width: 160px;
+            height: 280px;
+            position: relative;
+        }
+
+
+        div>div:nth-child(1) {
+            background-color: tomato;
+        }
+
+        div>div:nth-child(2) {
+            background-color: teal;
+        }
+
+        div>div:nth-child(3) {
+            background-color: burlywood;
+        }
+
+        div>div:nth-child(4) {
+            background-color: thistle;
+        }
+
+        div>h1 {
+            position: relative;
+            top: 10px;
+            margin-bottom: 0px;
+            background-color: white;
+            padding-top: 15px;
+            height: 40px;
+            font-style: inherit;
+            font-weight: 1000;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        h2 {
+            position: relative;
+            top: -4px;
+            height: 40px;
+            background-color: white;
+            font-style: normal;
+            font-weight: 1200;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    </style>
 </head>
 
 <body>

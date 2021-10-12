@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='kr'>
+
+<head>
+    <title>ESW time</title>
+    <style>
+        :root {
+            --main-color: tomato;
+            --defalut-border: 1px solid var(var(--main-color))
+        }
+
+        button:focus {
+            background-color: var(--main-color);
+        }
+
+        input:focus {
+            background-color: var(--main-color);
+        }
+
+        input::placeholder {
+            color: yellowgreen
+        }
+
+        p::first-line {
+            font-size: 30px;
+            background-color: yellowgreen;
+            color: white;
+        }
+
+        a {
+            color: var(--main-color);
+            border: var(--defalut-border);
+        }
+    </style>
+</head>
+
+<body>
+    <button>button</button>
+    <a href="https://apple.com">Go to apple</a>
+    <form>
+        <input type="text" placeholder="Name">
+    </form>
+    <p>
+        asdfasdfasdfasdfa
+        asdfasdfasdfasdfa
+    </p>
+</body>
+
+</html>
