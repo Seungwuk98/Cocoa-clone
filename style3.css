@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
+@import "reset.css";
 body {
   height: 100vh;
   display: flex;

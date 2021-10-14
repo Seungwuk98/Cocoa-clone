@@ -1,0 +1,31 @@
+.Top-Adventures {
+  position: relative;
+  top: 200px;
+  width: 100%;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  overflow-x: scroll;
+}
+.Top-Adventures__books-frame {
+  display: flex;
+  align-items: center;
+}
+.Top-Adventures__books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Top-Adventures__score {
+  display: flex;
+  width: 170px;
+}
+
+.Top-Adventures__book-cover {
+  width: 220px;
+  height: 300px;
+  margin: 30px 50px;
+}
