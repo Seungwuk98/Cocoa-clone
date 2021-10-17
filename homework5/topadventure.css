@@ -21,7 +21,8 @@
 
 .Top-Adventures__score {
   display: flex;
-  width: 170px;
+  justify-content: center;
+  width: 100%;
 }
 
 .Top-Adventures__book-cover {

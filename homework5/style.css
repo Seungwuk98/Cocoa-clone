@@ -50,7 +50,7 @@ h1 {
 
 .score {
   margin-top: 20px;
-  width: 100px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
 }
