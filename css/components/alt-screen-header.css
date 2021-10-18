@@ -1,0 +1,36 @@
+.alt-header {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  box-sizing: border-box;
+  padding: 40px 20px 0px var(--horizontal-space);
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 1;
+  width: 100%;
+}
+
+.alt-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:first-child {
+  width: 20%;
+}
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+  width: 60%;
+}

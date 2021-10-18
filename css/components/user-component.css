@@ -28,6 +28,8 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
@@ -57,4 +59,18 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__information-badge {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  color: tomato;
+  border: 2px solid tomato;
+  opacity: 0.5;
+  font-size: 8px;
+  text-align: center;
+  font-weight: 1000;
+  margin-left: 5px;
+  transform: translateY(1px);
 }
